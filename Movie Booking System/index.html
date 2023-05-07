@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Booking System - Signup</title>
+  <link rel="stylesheet" type="text/css" href="for.css">
+</head>
+<body>
+  <h1>Movie Ticket Booking System</h1>
+
+  <div class="signup-container">
+    <h2>Signup</h2>
+    <form id="signup-form" action="welcome.html">
+      <div class="form-group">
+        <label for="reg-id">Registration ID:</label>
+        <input type="text" id="reg-id" name="reg-id" required placeholder="Enter Registration ID">
+      </div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required placeholder="Enter Username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter Password">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile number:</label>
+        <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}" placeholder="Enter Mobile Number">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="text" id="dob" name="dob" required placeholder="Enter Date of Birth (DDMMYYYY)">
+      </div>
+      <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
